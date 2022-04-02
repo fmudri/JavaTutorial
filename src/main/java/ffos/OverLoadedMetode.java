@@ -35,4 +35,21 @@ public class OverLoadedMetode {
     return a + b + c + d;
     }
     
+    
+    
+    static double add(double a, double b){
+        System.out.println("Overloaded metoda 4");
+    return a + b;
+    }
+    
+    static double add(double a, double b, double c){
+        System.out.println("Overloaded metoda 5");
+    return a + b + c;
+    }
+    
+    static double add(double a, double b, double c, double d){
+        System.out.println("Overloaded metoda 6");
+    return a + b + c + d;
+    }
+    
 }
