@@ -24,4 +24,11 @@ public class Car {
             System.out.println("You step on the break");
 }
     
+    @Override
+    public String toString(){
+    
+        //String myString = make + "\n" + model + "\n" + color + "\n" + year;
+        return make + "\n" + model + "\n" + color + "\n" + year;
+    }
+    
 }
